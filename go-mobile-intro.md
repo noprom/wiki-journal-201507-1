@@ -1,1 +1,1 @@
-# See Android Go! Go, Android. Go!
+# 用GO语言看Android!走,Android.走!
