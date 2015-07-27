@@ -4,7 +4,7 @@
 
 时间：2015年7月23日
 
-作者：DevTools News
+作者：Paul Bakaus & the DevTools team
 
 ## 关于本文
 
@@ -56,10 +56,9 @@
 
 这个主页只是一面镜子而已：它在 Device Mode 也是可用的，因为当在你的网路响应的时候模拟坏连接也是非常重要的。
 
-Various tidbits
+小花絮 
 
-Hated those weird circles on the network timeline? So did we. These are the points in time when a frame (in the new film strip) was captured. Now they appear as lines when you hover. (https://src.chromium.org/viewvc/blink?revision=198505&view=revision)
-Device Mode now preserves orientation when you switch between devices (https://src.chromium.org/viewvc/blink?revision=198513&view=revision)
+讨厌网络时间线上一些怪异的循环吗？我们一样。每一帧的时候我们看到的都是一些点。当你的鼠标在不断移动的时候它们看起来就好像形成了线。（https://src.chromium.org/viewvc/blink?revision=198505&view=revision）当你在不同设备之间切换的时候 Device Mode 起到保持方向的效果（https://src.chromium.org/viewvc/blink?revision=198513&view=revision）
 
 ### 社区推动力
 
