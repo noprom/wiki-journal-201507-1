@@ -10,7 +10,7 @@
 
 ## 文章内容
 
-随着 Go 1.5 的即将发布,在 Android 和 IOS 上编译 Go 语言的代码正在被引进。你既可可以完全用 Go 语言来写你的应用并用 opengl 来做 UI 界面,也可以写一个可以和原生的 Android 和 IOS 交互的 GO 类库。这为跨平台类库打开了大门，这让我激动不已。Google 为了确保用 Go 语言写出来的 apps 不会被 apple store 拒之门外而做了很多跑腿儿活，比如[Ivy](https://itunes.apple.com/us/app/ivy-big-number-calculator/id1012116478?mt=8) 。
+随着 Go 1.5 的即将发布,在 Android 和 IOS 上编译 Go 语言的代码正在被引进。你既可以完全用 Go 语言来写你的应用并用 opengl 来做 UI 界面,也可以写一个可以和原生的 Android 和 IOS 交互的 GO 类库。这为跨平台类库打开了大门，这让我激动不已。Google 为了确保用 Go 语言写出来的 apps 不会被 apple store 拒之门外而做了很多跑腿儿活，比如[Ivy](https://itunes.apple.com/us/app/ivy-big-number-calculator/id1012116478?mt=8) 。
 
 ### 入门指南
 
