@@ -8,9 +8,9 @@
 
 ## 关于本文
 
+谷歌的 Chrom 浏览器一直被网友称道，而如今它又开发出了新的功能，咱们来看看都有哪些新的特征吧。
 
 ## 文章内容
-
 
 - 分类
  - [全部](https://developers.google.com/web/updates/chrome-devtools/)
