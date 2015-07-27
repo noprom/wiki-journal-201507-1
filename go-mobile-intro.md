@@ -10,7 +10,7 @@
 
 ## 文章内容
 
-随着 Go 1.5 的即将发布,在 Android 和 IOS 上编译 Go 语言的代码正在被引进。你既可以完全用 Go 语言来写你的应用并用 opengl 来做 UI 界面,也可以写一个可以和原生的 Android 和 IOS 交互的 GO 类库。这为跨平台类库打开了大门，这让我激动不已。Google 为了确保用 Go 语言写出来的 apps 不会被 apple store 拒之门外而做了很多跑腿儿活，比如[Ivy](https://itunes.apple.com/us/app/ivy-big-number-calculator/id1012116478?mt=8) 。
+随着 Go 1.5 的即将发布,在 Android 和 IOS 上编译 Go 语言的代码正在被引进。你既可以完全用 Go 语言来写你的应用并用 opengl 来做 UI 界面,也可以写一个可以和原生的 Android 和 IOS 交互的 Go 类库。这为跨平台类库打开了大门，这让我激动不已。Google 为了确保用 Go 语言写出来的 apps 不会被 apple store 拒之门外而做了很多跑腿儿活，比如[Ivy](https://itunes.apple.com/us/app/ivy-big-number-calculator/id1012116478?mt=8) 。
 
 ### 入门指南
 
@@ -25,7 +25,7 @@ gomobile init
 
 Android 平台：你需要安装 Android [sdk](https://developer.android.com/sdk/installing/index.html?pkg=tools) 并且确保你的 adb 在你的环境变量里面，并且你的设备要能够使用 adb 调试。
 
-IOS 平台：很不幸的是 IOS 并不是 100% 准备好，因此可能不会有作用。通常在 IOS 上编译你需要安装 xcode 并写使用 OSX 系统。
+IOS 平台：很不幸的是 IOS 并不是 100% 适配，因此可能不会有作用。通常在 IOS 上编译你需要安装 xcode 并写使用 OSX 系统。
 
 ### 安装一个示例
 
@@ -40,7 +40,7 @@ gomobile install golang.org/x/mobile/example/sprite
 ```
 虽然看起来不多，但是我觉得这相当酷。上面的应用使用纯 go 语言写的，并且使用 opengl 来做渲染。目前还有一些 api 限制，但是我相信不久就会改善。
 
-### 分解跨平台开发的应用
+### 分析跨平台开发的应用
 
 好，我们可以编译他人的代码，但是它在干什么？让我们看看在这个基本的示例应用里面发生了什么。
 
@@ -71,7 +71,7 @@ func main() {
     })
 }
 ```
-用 Go 语言写的应用会从 app 包里面调用主函数。在这里你可以定义应该发生什事件，在[事件文档](https://godoc.org/golang.org/x/mobile/event)了解更多细节。这些事件基于注册在应用里面的接口。
+用 Go 语言写的应用会从 app 包里面调用主函数。在这里你可以定义应该发生什事件，你可以在[事件文档](https://godoc.org/golang.org/x/mobile/event)了解更多细节。这些事件基于注册在应用里面的接口。
 
 上面的代码遍历在事件频道里面所有的事件。配置事件定义了屏幕的大小，绘图事件正在绘制我们长方形的颜色。点击事件改变了长方形的位置，生命周期事件构造或者析构这个基于应用焦点的项目。
 
