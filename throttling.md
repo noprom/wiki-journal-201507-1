@@ -46,7 +46,7 @@
 
 # =============这是视频=============
 
-在 Timeline 面板中，你可以通过选中在工具条中的 checkbox 来允许捕捉屏幕。和网络面板有一点不同的地方是：在这个案例中，我们尝试捕捉平时我们可以的 －  to be able to drop said screenshots on a linear timescale that correlates with the other rows in Timeline. 不用双击去预加载，视图中突起的部分在鼠标经过的时候就会出现。
+在 Timeline 面板中，你可以通过选中在工具条中的 checkbox 来允许捕捉屏幕。和网络面板有一点不同的地方是：在这个案例中，不管有多少实际像素，我们尝试捕捉像平时我们那样进行捕捉 －  可以减少在线性刻度与其他行在 Timeline 上的截图。不用双击去预加载，视图中突起的部分在鼠标经过的时候就会出现。
 
 这两个方面只是关于功能和 UX 很小的一部分，我们鼓励你尝试新的特征并且在[crbug.com/new](http://crbug.com/new) 提供建议或者通过 tweet [@ChromeDevTools](https://twitter.com/ChromeDevTools).
 
@@ -66,4 +66,13 @@
 
 ![down_and_dirty.png](images/down_and_dirty.png)
 
+
 [Bret Little](https://twitter.com/little_bret) 发布了这个很好的小的演练课程，这需要你有基本的 DevTools 功能，但是也提供了深入的意见或建议。当然更多有用的信息在这里，并且更多 DevTools 文档在这里。
+
+把 DevTools 变成一个完全的开发者工具是个很好的主意，这是我们团队之前梦寐以求的，但是这也将成为一个史诗般的工程。
+
+您是怎样想的呢？DevTools IDE 难道不是一个白日梦吗？或者你可以知道它怎么工作吗？它应该是怎样的呢？让我们和读者互动吧！
+
+再见！
+
+Paul Bakaus & the DevTools team
