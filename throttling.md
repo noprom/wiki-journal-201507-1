@@ -1,4 +1,4 @@
-# DevTools摘要: Film strip and a new home for throttling -- 王韬懿
+# DevTools摘要: 处理条带化数据时给条带化数据的一个新家 -- 王韬懿
     
 来源：[https://developers.google.com/web/updates/2015/07/23/devtools-digest-film-strip-and-a-new-home-for-throttling](https://developers.google.com/web/updates/2015/07/23/devtools-digest-film-strip-and-a-new-home-for-throttling)
 
